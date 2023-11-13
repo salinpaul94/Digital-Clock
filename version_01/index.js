@@ -4,4 +4,8 @@ let seconds = document.getElementById("seconds");
 
 function updateTime() {
   let date = new Date();
+
+  hours.innerHTML = date.getHours();
 }
+
+updateTime();
