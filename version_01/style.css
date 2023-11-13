@@ -61,6 +61,7 @@
   display: inline-block;
   text-align: center;
   position: relative;
+  color: #fff;
 }
 
 .clock span::after {
