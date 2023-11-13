@@ -33,7 +33,7 @@
 }
 
 .container::before {
-  content: '';
+  content: "";
   width: 180px;
   height: 180px;
   background: rgba(255, 3, 234, 0.5);
@@ -44,7 +44,7 @@
 }
 
 .container::after {
-  content: '';
+  content: "";
   width: 180px;
   height: 180px;
   background: rgba(2, 212, 254, 0.7);
@@ -71,6 +71,10 @@
   transform: translate(-50%);
 }
 
-#hours::after{
-  content: "HOURS"
+#hours::after {
+  content: "HOUR";
+}
+
+#minutes::after {
+  content: "MINUTE";
 }
