@@ -7,6 +7,7 @@ function updateTime() {
 
   hours.innerHTML = date.getHours();
   minutes.innerHTML = date.getMinutes();
+  seconds.innerHTML = date.getSeconds();
 }
 
 updateTime();
