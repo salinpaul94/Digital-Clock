@@ -17,6 +17,8 @@ function updateTime() {
     date.getMinutes() < 10 ? `0${date.getMinutes()}` : date.getMinutes();
   seconds.innerHTML =
     date.getSeconds() < 10 ? `0${date.getSeconds()}` : date.getSeconds();
+
+  amPm.innerHTML = (date.getHours() > 12) ? "PM" : "AM";
 }
 
 updateTime();
