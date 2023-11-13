@@ -30,3 +30,14 @@
   align-items: center;
   justify-content: center;
 }
+
+.container::before {
+  content: '';
+  width: 180px;
+  height: 180px;
+  background: #f41b75;
+  position: absolute;
+  left: -50px;
+  top: -50px;
+  z-index: -1;
+}
