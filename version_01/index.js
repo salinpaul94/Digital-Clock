@@ -11,3 +11,11 @@ function updateTime() {
 }
 
 updateTime();
+
+window.addEventListener(
+  "DOMContentLoaded",
+  setInterval(() => {
+    updateTime();
+  }),
+  1000
+);
