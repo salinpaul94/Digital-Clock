@@ -8,5 +8,5 @@
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(45deg, #08001f, #3019);
+  background: linear-gradient(45deg, #080020, rgba(61, 1, 21, 0.6));
 }
