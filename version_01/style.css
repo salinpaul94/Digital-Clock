@@ -83,3 +83,7 @@
 #seconds::after {
   content: "SECONDS";
 }
+
+#amPm {
+  margin-left: 30px;
+}
