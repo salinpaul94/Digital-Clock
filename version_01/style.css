@@ -54,3 +54,11 @@
   top: 50px;
   z-index: -1;
 }
+
+.clock span {
+  font-size: 80px;
+  width: 110px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
