@@ -5,7 +5,8 @@ let seconds = document.getElementById("seconds");
 function updateTime() {
   let date = new Date();
 
-  hours.innerHTML = date.getHours();
+  hours.innerHTML =
+    date.getHours() > 12 ? date.getHours() - 12 : date.getHours();
   minutes.innerHTML = date.getMinutes();
   seconds.innerHTML = date.getSeconds();
 }
