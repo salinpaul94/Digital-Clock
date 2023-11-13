@@ -64,10 +64,13 @@
 }
 
 .clock span::after {
-  content: 'Hours';
   font-size: 16px;
   position: absolute;
   bottom: -5px;
   left: 50%;
   transform: translate(-50%);
+}
+
+#hours::after{
+  content: "HOURS"
 }
