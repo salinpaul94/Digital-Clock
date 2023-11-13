@@ -72,9 +72,13 @@
 }
 
 #hours::after {
-  content: "HOUR";
+  content: "HOURS";
 }
 
 #minutes::after {
-  content: "MINUTE";
+  content: "MINUTES";
+}
+
+#seconds::after {
+  content: "SECONDS";
 }
