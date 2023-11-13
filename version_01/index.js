@@ -6,6 +6,7 @@ function updateTime() {
   let date = new Date();
 
   hours.innerHTML = date.getHours();
+  minutes.innerHTML = date.getMinutes();
 }
 
 updateTime();
