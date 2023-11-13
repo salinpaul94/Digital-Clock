@@ -12,7 +12,8 @@ function updateTime() {
         : date.getHours() - 12
       : date.getHours();
 
-  minutes.innerHTML = date.getMinutes();
+  minutes.innerHTML =
+    date.getMinutes() < 10 ? `0${date.getMinutes()}` : date.getMinutes();
   seconds.innerHTML =
     date.getSeconds() < 10 ? `0${date.getSeconds()}` : date.getSeconds();
 }
